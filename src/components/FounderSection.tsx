@@ -26,15 +26,15 @@ const FounderSection = () => {
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
-                <div className="flex flex-col items-center p-4 bg-white rounded-lg nural-shadow">
+                <div className="flex flex-col items-center p-4 bg-white rounded-xl nural-shadow">
                   <Award className="h-8 w-8 text-nural-600 mb-2" />
                   <h4 className="font-semibold text-center">10+ Years Experience</h4>
                 </div>
-                <div className="flex flex-col items-center p-4 bg-white rounded-lg nural-shadow">
+                <div className="flex flex-col items-center p-4 bg-white rounded-xl nural-shadow">
                   <Star className="h-8 w-8 text-nural-600 mb-2" />
                   <h4 className="font-semibold text-center">Award-Winning Strategies</h4>
                 </div>
-                <div className="flex flex-col items-center p-4 bg-white rounded-lg nural-shadow">
+                <div className="flex flex-col items-center p-4 bg-white rounded-xl nural-shadow">
                   <GraduationCap className="h-8 w-8 text-nural-600 mb-2" />
                   <h4 className="font-semibold text-center">4,000+ Investors Guided</h4>
                 </div>
@@ -47,8 +47,8 @@ const FounderSection = () => {
           </div>
           
           <div className="md:col-span-7 order-1 md:order-2">
-            <div className="relative flex justify-center">
-              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden nural-shadow">
+            <div className="relative flex justify-center md:justify-start">
+              <div className="w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden nural-shadow">
                 <Avatar className="w-full h-full">
                   <AvatarImage 
                     src="/lovable-uploads/b6e73895-045c-487d-899f-feac481470a4.png" 
@@ -58,7 +58,7 @@ const FounderSection = () => {
                   <AvatarFallback>SG</AvatarFallback>
                 </Avatar>
               </div>
-              <div className="absolute -bottom-6 right-0 md:right-10 bg-white p-4 rounded-lg nural-shadow max-w-xs">
+              <div className="absolute -bottom-6 right-0 md:right-10 bg-white p-4 rounded-xl nural-shadow max-w-xs">
                 <p className="text-sm text-gray-600">
                   <span className="font-semibold block mb-1">Featured in:</span>
                   Bloomberg, CNBC, Financial Times, Wall Street Journal

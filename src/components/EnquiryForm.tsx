@@ -64,6 +64,7 @@ const EnquiryForm = () => {
             value={formData.name}
             onChange={handleChange}
             required
+            className="rounded-xl"
           />
         </div>
 
@@ -77,6 +78,7 @@ const EnquiryForm = () => {
             value={formData.email}
             onChange={handleChange}
             required
+            className="rounded-xl"
           />
         </div>
 
@@ -88,16 +90,17 @@ const EnquiryForm = () => {
             placeholder="Your phone number"
             value={formData.phone}
             onChange={handleChange}
+            className="rounded-xl"
           />
         </div>
 
         <div className="space-y-2">
           <Label htmlFor="service">Service Interested In</Label>
           <Select value={formData.service} onValueChange={handleSelectChange}>
-            <SelectTrigger id="service">
+            <SelectTrigger id="service" className="rounded-xl">
               <SelectValue placeholder="Select a service" />
             </SelectTrigger>
-            <SelectContent>
+            <SelectContent className="rounded-xl">
               <SelectItem value="trading-coaching">Trading Coaching</SelectItem>
               <SelectItem value="asset-management">Asset Management</SelectItem>
               <SelectItem value="strategy-development">Strategy Development</SelectItem>
@@ -117,12 +120,13 @@ const EnquiryForm = () => {
             onChange={handleChange}
             rows={4}
             required
+            className="rounded-xl"
           />
         </div>
 
         <Button 
           type="submit" 
-          className="w-full bg-neural-600 hover:bg-neural-700"
+          className="w-full bg-nural-600 hover:bg-nural-700 text-white"
           disabled={isSubmitting}
         >
           {isSubmitting ? (
