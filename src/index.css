@@ -1,4 +1,5 @@
 
+
 @import 'bulma/css/bulma.min.css';
 
 /* Custom components and extensions to Bulma */
@@ -65,3 +66,4 @@
 .button.is-neural-outline:hover {
   background-color: #FFF5E6;
 }
+
