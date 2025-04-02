@@ -1,105 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@import 'bulma/css/bulma.min.css';
-
-/* Custom components and extensions to Bulma */
-.gradient-text {
-  background-image: linear-gradient(to right, #9E3B00, #FA6101);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
-.neural-shadow {
-  box-shadow: 0 10px 30px -5px rgba(250, 97, 1, 0.15);
-}
-
-.animate-float {
-  animation: float 5s ease-in-out infinite;
-}
-
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0);
+@layer base {
+  :root {
+    --background: 24 100% 98%;
+    --foreground: 25 100% 10%;
+    --primary: 25 100% 50%;
+    --primary-foreground: 24 100% 98%;
+    --secondary: 25 100% 96%;
+    --secondary-foreground: 25 100% 20%;
+    --accent: 25 100% 60%;
+    --accent-foreground: 25 100% 10%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.5rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
   }
-  50% {
-    transform: translateY(-10px);
+
+  .dark {
+    --background: 25 100% 10%;
+    --foreground: 24 100% 98%;
+    --primary: 24 100% 98%;
+    --primary-foreground: 25 100% 20%;
+    --secondary: 25 100% 20%;
+    --secondary-foreground: 24 100% 98%;
+    --accent: 25 100% 30%;
+    --accent-foreground: 24 100% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
   }
 }
 
-/* Custom colors to match our theme */
-.has-background-neural {
-  background-color: #FA6101 !important;
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "ss01" on, "ss02" on, "cv01" on, "cv02" on, "cv03" on;
+  }
 }
 
-.has-background-neural-light {
-  background-color: #FFE6CC !important;
-}
-
-.has-text-neural {
-  color: #FA6101 !important;
-}
-
-.has-text-neural-dark {
-  color: #9E3B00 !important;
-}
-
-.has-border-neural {
-  border-color: #FA6101 !important;
-}
-
-.button.is-neural {
-  background-color: #FA6101;
-  color: white;
-}
-
-.button.is-neural:hover {
-  background-color: #CC4E00;
-}
-
-.button.is-neural-outline {
-  background-color: transparent;
-  border-color: #FA6101;
-  color: #FA6101;
-}
-
-.button.is-neural-outline:hover {
-  background-color: #FFF5E6;
-}
-
-/* Fix for mobile responsiveness */
-@media screen and (max-width: 1023px) {
-  .navbar-menu {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-nural-700 to-nural-500 bg-clip-text text-transparent;
   }
   
-  .chart-container {
-    display: none;
+  .neural-shadow {
+    box-shadow: 0 10px 30px -5px rgba(250, 97, 1, 0.15);
   }
-}
-
-/* Fix for general layout issues */
-.hero-body {
-  padding: 3rem 1.5rem;
-}
-
-/* Ensure forms display properly */
-.field {
-  margin-bottom: 1rem;
-}
-
-textarea {
-  min-height: 120px;
-}
-
-/* Ensure padding is consistent */
-.section {
-  padding: 3rem 1.5rem;
-}
-
-/* Fix for image sizing */
-img {
-  max-width: 100%;
 }
