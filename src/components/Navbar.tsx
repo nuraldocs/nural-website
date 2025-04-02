@@ -1,6 +1,5 @@
 
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isMenuActive, setIsMenuActive] = useState(false);

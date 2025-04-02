@@ -1,5 +1,4 @@
 
-
 @import 'bulma/css/bulma.min.css';
 
 /* Custom components and extensions to Bulma */
@@ -67,3 +66,40 @@
   background-color: #FFF5E6;
 }
 
+/* Fix for mobile responsiveness */
+@media screen and (max-width: 1023px) {
+  .navbar-menu {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
+  }
+  
+  .chart-container {
+    display: none;
+  }
+}
+
+/* Fix for general layout issues */
+.hero-body {
+  padding: 3rem 1.5rem;
+}
+
+/* Ensure forms display properly */
+.field {
+  margin-bottom: 1rem;
+}
+
+textarea {
+  min-height: 120px;
+}
+
+/* Ensure padding is consistent */
+.section {
+  padding: 3rem 1.5rem;
+}
+
+/* Fix for image sizing */
+img {
+  max-width: 100%;
+}
