@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { services } from "@/data/servicesData";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { ArrowRight } from "lucide-react";
+import { Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Services = () => {
@@ -43,8 +43,8 @@ const Services = () => {
                   <CardContent className="space-y-4">
                     <CardDescription className="text-gray-600 text-base">{service.description}</CardDescription>
                     <Button asChild variant="outline" className="w-full rounded-full border-nural-500 text-nural-600 hover:bg-nural-50">
-                      <Link to={`/services/${service.id}`} className="flex items-center justify-center gap-2">
-                        Learn More <ArrowRight className="h-4 w-4" />
+                      <Link to="/contact" className="flex items-center justify-center gap-2">
+                        Book Consultation <Calendar className="h-4 w-4" />
                       </Link>
                     </Button>
                   </CardContent>
@@ -126,3 +126,4 @@ const Services = () => {
 };
 
 export default Services;
+
