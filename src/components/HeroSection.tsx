@@ -9,10 +9,10 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="max-w-xl">
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
-              Master the Market with <span className="gradient-text">Neural</span> Trading Coaching
+              Invest smarter, grow faster with <span className="gradient-text">NURAL</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8">
-              Expert guidance for stock asset management and trading strategies that help you achieve your financial goals.
+              We revolutionize the way you manage investments and financial strategies, providing cutting-edge technology and insightful analytics to help you achieve your financial goals.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="bg-neural-600 hover:bg-neural-700 text-white px-6 py-6" size="lg">
@@ -23,6 +23,9 @@ const HeroSection = () => {
                 Learn More
               </Button>
             </div>
+            <p className="mt-4 text-sm text-gray-500">
+              Join thousands who trust us to simplify investments and maximize returns.
+            </p>
           </div>
           <div className="relative hidden md:block animate-float">
             <div className="absolute -top-10 -right-10 w-48 h-48 bg-neural-200 rounded-full filter blur-3xl opacity-50"></div>

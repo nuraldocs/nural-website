@@ -18,7 +18,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <a href="/" className="flex items-center gap-2">
               <Brain className="h-7 w-7 text-neural-600" />
-              <span className="text-2xl font-bold gradient-text">Neural</span>
+              <span className="text-2xl font-bold gradient-text">NURAL</span>
             </a>
           </div>
 
