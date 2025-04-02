@@ -13,13 +13,13 @@ const Footer = () => {
               Empowering investors with innovative technology and expert financial strategies.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-black hover:text-neural-400 transition duration-200">
+              <a href="#" className="text-black hover:text-nural-400 transition duration-200">
                 <Twitter size={20} />
               </a>
-              <a href="#" className="text-black hover:text-neural-400 transition duration-200">
+              <a href="#" className="text-black hover:text-nural-400 transition duration-200">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="text-black hover:text-neural-400 transition duration-200">
+              <a href="#" className="text-black hover:text-nural-400 transition duration-200">
                 <Facebook size={20} />
               </a>
             </div>
@@ -28,21 +28,21 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-lg mb-4 text-black">Services</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-black hover:text-neural-500 transition duration-200">Investment Management</a></li>
-              <li><a href="#" className="text-black hover:text-neural-500 transition duration-200">Trading Platform</a></li>
-              <li><a href="#" className="text-black hover:text-neural-500 transition duration-200">Financial Analytics</a></li>
-              <li><a href="#" className="text-black hover:text-neural-500 transition duration-200">Wealth Advisory</a></li>
-              <li><a href="#" className="text-black hover:text-neural-500 transition duration-200">Robo-Advisory</a></li>
+              <li><a href="#" className="text-black hover:text-nural-500 transition duration-200">Investment Management</a></li>
+              <li><a href="#" className="text-black hover:text-nural-500 transition duration-200">Trading Platform</a></li>
+              <li><a href="#" className="text-black hover:text-nural-500 transition duration-200">Financial Analytics</a></li>
+              <li><a href="#" className="text-black hover:text-nural-500 transition duration-200">Wealth Advisory</a></li>
+              <li><a href="#" className="text-black hover:text-nural-500 transition duration-200">Robo-Advisory</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-semibold text-lg mb-4 text-black">Company</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-black hover:text-neural-500 transition duration-200">About Us</a></li>
-              <li><a href="#" className="text-black hover:text-neural-500 transition duration-200">Our Team</a></li>
-              <li><a href="#" className="text-black hover:text-neural-500 transition duration-200">Mission & Vision</a></li>
-              <li><a href="#" className="text-black hover:text-neural-500 transition duration-200">Privacy Policy</a></li>
+              <li><a href="#" className="text-black hover:text-nural-500 transition duration-200">About Us</a></li>
+              <li><a href="#" className="text-black hover:text-nural-500 transition duration-200">Our Team</a></li>
+              <li><a href="#" className="text-black hover:text-nural-500 transition duration-200">Mission & Vision</a></li>
+              <li><a href="#" className="text-black hover:text-nural-500 transition duration-200">Privacy Policy</a></li>
             </ul>
           </div>
 
@@ -55,11 +55,11 @@ const Footer = () => {
               </li>
               <li className="flex items-center text-black">
                 <Mail size={16} className="mr-2" />
-                <a href="mailto:contact@nural.com" className="text-black hover:text-neural-500 transition duration-200">contact@nural.com</a>
+                <a href="mailto:contact@nural.com" className="text-black hover:text-nural-500 transition duration-200">contact@nural.com</a>
               </li>
               <li className="flex items-center text-black">
                 <Phone size={16} className="mr-2" />
-                <a href="tel:+15551234567" className="text-black hover:text-neural-500 transition duration-200">+1 (555) 123-4567</a>
+                <a href="tel:+15551234567" className="text-black hover:text-nural-500 transition duration-200">+1 (555) 123-4567</a>
               </li>
             </ul>
           </div>

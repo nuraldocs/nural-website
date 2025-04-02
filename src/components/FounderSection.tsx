@@ -27,21 +27,21 @@ const FounderSection = () => {
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
-                <div className="flex flex-col items-center p-4 bg-white rounded-lg neural-shadow">
-                  <Award className="h-8 w-8 text-neural-600 mb-2" />
+                <div className="flex flex-col items-center p-4 bg-white rounded-lg nural-shadow">
+                  <Award className="h-8 w-8 text-nural-600 mb-2" />
                   <h4 className="font-semibold text-center">10+ Years Experience</h4>
                 </div>
-                <div className="flex flex-col items-center p-4 bg-white rounded-lg neural-shadow">
-                  <Star className="h-8 w-8 text-neural-600 mb-2" />
+                <div className="flex flex-col items-center p-4 bg-white rounded-lg nural-shadow">
+                  <Star className="h-8 w-8 text-nural-600 mb-2" />
                   <h4 className="font-semibold text-center">Award-Winning Strategies</h4>
                 </div>
-                <div className="flex flex-col items-center p-4 bg-white rounded-lg neural-shadow">
-                  <GraduationCap className="h-8 w-8 text-neural-600 mb-2" />
+                <div className="flex flex-col items-center p-4 bg-white rounded-lg nural-shadow">
+                  <GraduationCap className="h-8 w-8 text-nural-600 mb-2" />
                   <h4 className="font-semibold text-center">4,000+ Investors Guided</h4>
                 </div>
               </div>
 
-              <blockquote className="italic border-l-4 border-neural-600 pl-4 py-2 text-gray-600">
+              <blockquote className="italic border-l-4 border-nural-600 pl-4 py-2 text-gray-600">
                 "Success in investing isn't just about strategies and indicators. It's about leveraging technology and expertise to make smarter decisions in any market condition."
               </blockquote>
             </div>
@@ -49,14 +49,14 @@ const FounderSection = () => {
           
           <div className="md:col-span-7 order-1 md:order-2">
             <div className="relative">
-              <div className="aspect-[16/9] rounded-xl overflow-hidden neural-shadow">
+              <div className="aspect-[16/9] rounded-xl overflow-hidden nural-shadow">
                 <img 
                   src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" 
                   alt="Siddarth Gowda, Founder of NURAL" 
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg neural-shadow max-w-xs">
+              <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg nural-shadow max-w-xs">
                 <p className="text-sm text-gray-600">
                   <span className="font-semibold block mb-1">Featured in:</span>
                   Bloomberg, CNBC, Financial Times, Wall Street Journal

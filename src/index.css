@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -73,7 +74,7 @@
     @apply bg-gradient-to-r from-nural-700 to-nural-500 bg-clip-text text-transparent;
   }
   
-  .neural-shadow {
+  .nural-shadow {
     box-shadow: 0 10px 30px -5px rgba(250, 97, 1, 0.15);
   }
 }

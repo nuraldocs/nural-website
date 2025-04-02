@@ -1,3 +1,4 @@
+
 import { ArrowRight, TrendingUp, BarChart3 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -27,9 +28,9 @@ const HeroSection = () => {
             </p>
           </div>
           <div className="relative hidden md:block animate-float">
-            <div className="absolute -top-10 -right-10 w-48 h-48 bg-neural-200 rounded-full filter blur-3xl opacity-50"></div>
-            <div className="absolute -bottom-10 -left-10 w-48 h-48 bg-neural-300 rounded-full filter blur-3xl opacity-50"></div>
-            <div className="neural-shadow bg-white p-8 rounded-2xl border border-gray-100 relative z-10">
+            <div className="absolute -top-10 -right-10 w-48 h-48 bg-nural-200 rounded-full filter blur-3xl opacity-50"></div>
+            <div className="absolute -bottom-10 -left-10 w-48 h-48 bg-nural-300 rounded-full filter blur-3xl opacity-50"></div>
+            <div className="nural-shadow bg-white p-8 rounded-2xl border border-gray-100 relative z-10">
               <div className="mb-6 flex justify-between items-center">
                 <h3 className="font-bold text-lg">Portfolio Performance</h3>
                 <span className="text-green-500 flex items-center">
@@ -38,13 +39,13 @@ const HeroSection = () => {
                 </span>
               </div>
               <div className="space-y-4">
-                <div className="h-40 w-full bg-neural-50 rounded-lg flex items-end p-4">
-                  <div className="w-1/6 h-1/4 bg-neural-300 rounded-t-sm mx-1"></div>
-                  <div className="w-1/6 h-2/4 bg-neural-400 rounded-t-sm mx-1"></div>
-                  <div className="w-1/6 h-3/4 bg-neural-500 rounded-t-sm mx-1"></div>
-                  <div className="w-1/6 h-2/3 bg-neural-600 rounded-t-sm mx-1"></div>
-                  <div className="w-1/6 h-5/6 bg-neural-700 rounded-t-sm mx-1"></div>
-                  <div className="w-1/6 h-full bg-neural-800 rounded-t-sm mx-1"></div>
+                <div className="h-40 w-full bg-nural-50 rounded-lg flex items-end p-4">
+                  <div className="w-1/6 h-1/4 bg-nural-300 rounded-t-sm mx-1"></div>
+                  <div className="w-1/6 h-2/4 bg-nural-400 rounded-t-sm mx-1"></div>
+                  <div className="w-1/6 h-3/4 bg-nural-500 rounded-t-sm mx-1"></div>
+                  <div className="w-1/6 h-2/3 bg-nural-600 rounded-t-sm mx-1"></div>
+                  <div className="w-1/6 h-5/6 bg-nural-700 rounded-t-sm mx-1"></div>
+                  <div className="w-1/6 h-full bg-nural-800 rounded-t-sm mx-1"></div>
                 </div>
                 <div className="flex items-center justify-between text-sm text-gray-500">
                   <span>Jan</span>
@@ -55,7 +56,7 @@ const HeroSection = () => {
                   <span>Jun</span>
                 </div>
                 <div className="flex items-center mt-4">
-                  <BarChart3 className="text-neural-600 h-5 w-5 mr-2" />
+                  <BarChart3 className="text-nural-600 h-5 w-5 mr-2" />
                   <span className="text-sm text-gray-600">Asset Growth Trend</span>
                 </div>
               </div>

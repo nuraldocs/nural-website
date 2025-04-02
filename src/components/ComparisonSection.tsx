@@ -63,7 +63,7 @@ const ComparisonSection = () => {
             <div className="col-span-1 text-gray-600">Others</div>
           </div>
 
-          <Card className="neural-shadow rounded-xl overflow-hidden">
+          <Card className="nural-shadow rounded-xl overflow-hidden">
             <CardContent className="p-0">
               {comparisonData.map((item, index) => (
                 <div 

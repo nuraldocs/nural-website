@@ -32,28 +32,28 @@ const Index = () => {
           <div className="container mx-auto px-4 md:px-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl md:text-4xl font-bold mb-6">Why Choose Neural</h2>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6">Why Choose Nural</h2>
                 <div className="space-y-4">
-                  <div className="border-l-4 border-neural-600 pl-4">
+                  <div className="border-l-4 border-nural-600 pl-4">
                     <h3 className="text-xl font-semibold mb-2">Expert Guidance</h3>
                     <p className="text-gray-600">Our team consists of seasoned traders and financial experts with decades of combined experience in the markets.</p>
                   </div>
-                  <div className="border-l-4 border-neural-600 pl-4">
+                  <div className="border-l-4 border-nural-600 pl-4">
                     <h3 className="text-xl font-semibold mb-2">Personalized Approach</h3>
                     <p className="text-gray-600">We understand that every trader and investor has unique goals, which is why our coaching and strategies are tailored to you.</p>
                   </div>
-                  <div className="border-l-4 border-neural-600 pl-4">
+                  <div className="border-l-4 border-nural-600 pl-4">
                     <h3 className="text-xl font-semibold mb-2">Proven Track Record</h3>
                     <p className="text-gray-600">Our clients consistently outperform market averages through disciplined strategies and continuous improvement.</p>
                   </div>
-                  <div className="border-l-4 border-neural-600 pl-4">
+                  <div className="border-l-4 border-nural-600 pl-4">
                     <h3 className="text-xl font-semibold mb-2">Continuous Support</h3>
                     <p className="text-gray-600">We're with you every step of your trading journey, providing guidance, feedback, and encouragement.</p>
                   </div>
                 </div>
               </div>
-              <div className="relative h-[400px] neural-shadow rounded-xl overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-r from-neural-700/20 to-neural-500/20"></div>
+              <div className="relative h-[400px] nural-shadow rounded-xl overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-r from-nural-700/20 to-nural-500/20"></div>
                 <img 
                   src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" 
                   alt="Trading and coaching" 
@@ -92,10 +92,10 @@ const Index = () => {
                     Schedule a Meeting
                   </TabsTrigger>
                 </TabsList>
-                <TabsContent value="enquiry" className="p-6 bg-white neural-shadow rounded-lg">
+                <TabsContent value="enquiry" className="p-6 bg-white nural-shadow rounded-lg">
                   <EnquiryForm />
                 </TabsContent>
-                <TabsContent value="schedule" className="p-6 bg-white neural-shadow rounded-lg">
+                <TabsContent value="schedule" className="p-6 bg-white nural-shadow rounded-lg">
                   <ScheduleMeeting />
                 </TabsContent>
               </Tabs>
