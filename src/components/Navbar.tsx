@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Brain } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const Navbar = () => {
@@ -16,7 +16,10 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <a href="/" className="text-2xl font-bold gradient-text">Neural</a>
+            <a href="/" className="flex items-center gap-2">
+              <Brain className="h-7 w-7 text-neural-600" />
+              <span className="text-2xl font-bold gradient-text">Neural</span>
+            </a>
           </div>
 
           {/* Desktop Navigation */}
@@ -24,6 +27,7 @@ const Navbar = () => {
             <a href="#services" className="text-gray-700 hover:text-neural-600 transition duration-200">Services</a>
             <a href="#about" className="text-gray-700 hover:text-neural-600 transition duration-200">About</a>
             <a href="#testimonials" className="text-gray-700 hover:text-neural-600 transition duration-200">Testimonials</a>
+            <a href="#instagram" className="text-gray-700 hover:text-neural-600 transition duration-200">Instagram</a>
             <a href="#contact" className="text-gray-700 hover:text-neural-600 transition duration-200">Contact</a>
             <Button className="bg-neural-600 hover:bg-neural-700">Get Started</Button>
           </div>
@@ -45,6 +49,7 @@ const Navbar = () => {
             <a href="#services" className="text-gray-700 hover:text-neural-600 transition duration-200 py-2">Services</a>
             <a href="#about" className="text-gray-700 hover:text-neural-600 transition duration-200 py-2">About</a>
             <a href="#testimonials" className="text-gray-700 hover:text-neural-600 transition duration-200 py-2">Testimonials</a>
+            <a href="#instagram" className="text-gray-700 hover:text-neural-600 transition duration-200 py-2">Instagram</a>
             <a href="#contact" className="text-gray-700 hover:text-neural-600 transition duration-200 py-2">Contact</a>
             <Button className="bg-neural-600 hover:bg-neural-700 w-full">Get Started</Button>
           </div>
