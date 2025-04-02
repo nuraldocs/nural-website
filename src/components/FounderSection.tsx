@@ -17,13 +17,10 @@ const FounderSection = () => {
             <div className="space-y-6">
               <h3 className="text-2xl font-bold gradient-text">Siddarth Gowda</h3>
               <p className="text-gray-700 leading-relaxed">
-                Siddarth Gowda, the visionary founder behind Nural, has established himself as a pioneering figure in the intersection of finance and technology. With a background that marries deep expertise in financial markets with a keen understanding of artificial intelligence, Gowda identified a critical gap in the trading industry: the absence of a unified platform that could cater comprehensively to a trader's needs.
+                Siddarth Gowda combines deep expertise in financial markets with AI technology to revolutionize trading. He identified the need for a unified platform that comprehensively addresses traders' needs.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                Motivated by the desire to streamline the trading process and enhance decision-making through technology, he embarked on creating Nural. Gowda's vision was to democratize access to advanced trading tools, making it possible for traders of all levels to leverage AI for informed decision-making. His leadership and innovative approach have been instrumental in developing Nural into a platform that not only simplifies trading but also empowers users to execute strategies with greater precision and confidence.
-              </p>
-              <p className="text-gray-700 leading-relaxed">
-                Siddarth's commitment to innovation and his drive to continuously improve the trading experience underscore his role as a transformative leader in the fintech space.
+                His vision for Nural is to democratize access to advanced trading tools, enabling traders of all levels to leverage AI for better decision-making. Under his leadership, Nural has evolved into a platform that simplifies trading and empowers users with greater precision.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
