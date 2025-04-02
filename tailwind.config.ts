@@ -65,6 +65,18 @@ export default {
 					800: '#075985',
 					900: '#0c4a6e',
 				},
+				nural: {
+					50: '#fff8f0',
+					100: '#ffe9d6',
+					200: '#ffd0ad',
+					300: '#ffb17a',
+					400: '#ff8a3a',
+					500: '#ff6600',
+					600: '#ff4b00',
+					700: '#cc3a00',
+					800: '#a63100',
+					900: '#7a2a02',
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

@@ -3,7 +3,7 @@ import { Lightbulb, Target } from "lucide-react";
 
 const MissionSection = () => {
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-nural-50">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Mission & Vision</h2>
@@ -13,9 +13,9 @@ const MissionSection = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <div className="bg-white p-8 rounded-xl neural-shadow">
+          <div className="bg-white p-8 rounded-xl shadow-lg border border-nural-100">
             <div className="flex items-center mb-6">
-              <Target className="h-10 w-10 text-neural-600 mr-4" />
+              <Target className="h-10 w-10 text-nural-500 mr-4" />
               <h3 className="text-2xl font-bold">Our Mission</h3>
             </div>
             <p className="text-gray-700 leading-relaxed">
@@ -26,9 +26,9 @@ const MissionSection = () => {
             </p>
           </div>
 
-          <div className="bg-white p-8 rounded-xl neural-shadow">
+          <div className="bg-white p-8 rounded-xl shadow-lg border border-nural-100">
             <div className="flex items-center mb-6">
-              <Lightbulb className="h-10 w-10 text-neural-600 mr-4" />
+              <Lightbulb className="h-10 w-10 text-nural-500 mr-4" />
               <h3 className="text-2xl font-bold">Our Vision</h3>
             </div>
             <p className="text-gray-700 leading-relaxed">

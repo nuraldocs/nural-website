@@ -7,18 +7,24 @@ const Footer = () => {
       <div className="container mx-auto py-12 px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold gradient-text">NURAL</h3>
+            <div className="flex items-center">
+              <img 
+                src="/lovable-uploads/8d69dfe1-1692-404d-a1df-d2c6ad112e56.png" 
+                alt="NURAL Logo" 
+                className="h-10 mr-2"
+              />
+            </div>
             <p className="text-gray-400">
               Empowering investors with innovative technology and expert financial strategies.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-neural-400 transition duration-200">
+              <a href="#" className="text-gray-400 hover:text-nural-400 transition duration-200">
                 <Twitter size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-neural-400 transition duration-200">
+              <a href="#" className="text-gray-400 hover:text-nural-400 transition duration-200">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-neural-400 transition duration-200">
+              <a href="#" className="text-gray-400 hover:text-nural-400 transition duration-200">
                 <Facebook size={20} />
               </a>
             </div>
