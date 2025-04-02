@@ -8,19 +8,19 @@ const FounderSection = () => {
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">About the Founder</h2>
           <p className="text-lg text-gray-600">
-            Meet the visionary behind NURAL's revolutionary financial approach
+            Meet the visionary behind Nural's revolutionary financial approach
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
           <div className="md:col-span-5 order-2 md:order-1">
             <div className="space-y-6">
-              <h3 className="text-2xl font-bold gradient-text">Siddharth Gowda</h3>
+              <h3 className="text-2xl font-bold gradient-text">Siddharth</h3>
               <p className="text-gray-700 leading-relaxed">
-                With over 10 years of experience in financial markets, Siddharth Gowda founded NURAL with a mission to transform how investors approach the markets. After starting his career in the financial sector, Siddharth realized that most investment platforms failed to address both technological innovation and personalized guidance.
+                With over 10 years of experience in financial markets, Siddharth founded Nural with a mission to transform how investors approach the markets. After starting his career in the financial sector, Siddharth realized that most investment platforms failed to address both technological innovation and personalized guidance.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                He developed NURAL's unique methodology that integrates cutting-edge technology with financial expertise, helping investors make more informed and effective investment decisions.
+                He developed Nural's unique methodology that integrates cutting-edge technology with financial expertise, helping investors make more informed and effective investment decisions.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">

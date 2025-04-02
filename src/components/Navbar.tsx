@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
@@ -18,7 +19,7 @@ const Navbar = () => {
             <a href="/" className="flex items-center gap-2">
               <img 
                 src="/lovable-uploads/8d69dfe1-1692-404d-a1df-d2c6ad112e56.png" 
-                alt="NURAL Logo" 
+                alt="Nural Logo" 
                 className="h-10"
               />
             </a>
