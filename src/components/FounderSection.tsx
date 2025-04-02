@@ -15,12 +15,15 @@ const FounderSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
           <div className="md:col-span-5 order-2 md:order-1">
             <div className="space-y-6">
-              <h3 className="text-2xl font-bold gradient-text">Siddharth</h3>
+              <h3 className="text-2xl font-bold gradient-text">Siddarth Gowda</h3>
               <p className="text-gray-700 leading-relaxed">
-                With over 10 years of experience in financial markets, Siddharth founded Nural with a mission to transform how investors approach the markets. After starting his career in the financial sector, Siddharth realized that most investment platforms failed to address both technological innovation and personalized guidance.
+                Siddarth Gowda, the visionary founder behind Nural, has established himself as a pioneering figure in the intersection of finance and technology. With a background that marries deep expertise in financial markets with a keen understanding of artificial intelligence, Gowda identified a critical gap in the trading industry: the absence of a unified platform that could cater comprehensively to a trader's needs.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                He developed Nural's unique methodology that integrates cutting-edge technology with financial expertise, helping investors make more informed and effective investment decisions.
+                Motivated by the desire to streamline the trading process and enhance decision-making through technology, he embarked on creating Nural. Gowda's vision was to democratize access to advanced trading tools, making it possible for traders of all levels to leverage AI for informed decision-making. His leadership and innovative approach have been instrumental in developing Nural into a platform that not only simplifies trading but also empowers users to execute strategies with greater precision and confidence.
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                Siddarth's commitment to innovation and his drive to continuously improve the trading experience underscore his role as a transformative leader in the fintech space.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
@@ -49,7 +52,7 @@ const FounderSection = () => {
               <div className="aspect-[16/9] rounded-xl overflow-hidden neural-shadow">
                 <img 
                   src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" 
-                  alt="Siddharth Gowda, Founder of NURAL" 
+                  alt="Siddarth Gowda, Founder of NURAL" 
                   className="w-full h-full object-cover"
                 />
               </div>
