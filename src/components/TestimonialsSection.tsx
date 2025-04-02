@@ -1,6 +1,4 @@
 
-import { Card, CardContent, CardFooter } from "@/components/ui/card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Quote } from "lucide-react";
 
 const TestimonialsSection = () => {
@@ -26,32 +24,39 @@ const TestimonialsSection = () => {
   ];
 
   return (
-    <section id="testimonials" className="py-20 bg-secondary">
-      <div className="container mx-auto px-4 md:px-6">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">What Our Clients Say</h2>
-          <p className="text-lg text-gray-600">
+    <section id="testimonials" className="section has-background-light">
+      <div className="container">
+        <div className="has-text-centered mb-6">
+          <h2 className="title is-3">What Our Clients Say</h2>
+          <p className="subtitle is-5 has-text-grey-dark">
             Hear from traders and investors who have transformed their financial outcomes with Neural.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="columns is-multiline">
           {testimonials.map((testimonial, index) => (
-            <Card key={index} className="bg-white border-0 neural-shadow">
-              <CardContent className="pt-6">
-                <Quote className="h-8 w-8 text-neural-400 mb-4" />
-                <p className="text-gray-700 italic mb-6">{testimonial.quote}</p>
-              </CardContent>
-              <CardFooter className="flex items-center space-x-4 border-t border-gray-100 pt-4">
-                <Avatar>
-                  <AvatarFallback className="bg-neural-100 text-neural-700">{testimonial.initials}</AvatarFallback>
-                </Avatar>
-                <div>
-                  <p className="font-medium">{testimonial.name}</p>
-                  <p className="text-sm text-gray-500">{testimonial.title}</p>
+            <div key={index} className="column is-4">
+              <div className="card neural-shadow">
+                <div className="card-content">
+                  <div className="mb-4">
+                    <Quote className="has-text-neural-light" size={32} />
+                  </div>
+                  <p className="is-italic has-text-grey-dark mb-5">
+                    {testimonial.quote}
+                  </p>
+                  <div className="is-flex is-align-items-center pt-4 border-top">
+                    <div className="is-flex is-justify-content-center is-align-items-center has-background-neural-light has-text-neural-dark" 
+                         style={{ width: "40px", height: "40px", borderRadius: "50%" }}>
+                      {testimonial.initials}
+                    </div>
+                    <div className="ml-3">
+                      <p className="has-text-weight-bold">{testimonial.name}</p>
+                      <p className="is-size-7 has-text-grey">{testimonial.title}</p>
+                    </div>
+                  </div>
                 </div>
-              </CardFooter>
-            </Card>
+              </div>
+            </div>
           ))}
         </div>
       </div>
