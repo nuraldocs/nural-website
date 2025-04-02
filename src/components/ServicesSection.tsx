@@ -1,11 +1,11 @@
 
-import { ChartLineUp, Briefcase, Users, BookOpen, DollarSign, GraduationCap } from "lucide-react";
+import { ChartLine, Briefcase, Users, BookOpen, DollarSign, GraduationCap } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const ServicesSection = () => {
   const services = [
     {
-      icon: <ChartLineUp className="h-10 w-10 text-neural-600" />,
+      icon: <ChartLine className="h-10 w-10 text-neural-600" />,
       title: "Trading Coaching",
       description: "Personalized one-on-one coaching sessions to develop your trading strategy and improve your market analysis skills."
     },
