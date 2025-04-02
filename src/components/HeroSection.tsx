@@ -1,10 +1,7 @@
-
 import { ArrowRight, TrendingUp, BarChart3 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
 const HeroSection = () => {
-  return (
-    <section className="relative pt-20 pb-24 overflow-hidden bg-gradient-to-b from-white to-secondary">
+  return <section className="relative pt-20 pb-24 overflow-hidden bg-gradient-to-b from-white to-secondary">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="max-w-xl">
@@ -15,7 +12,7 @@ const HeroSection = () => {
               We revolutionize the way you manage investments and financial strategies, providing cutting-edge technology and insightful analytics to help you achieve your financial goals.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-neural-600 hover:bg-neural-700 text-white px-6 py-6" size="lg">
+              <Button size="lg" className="text-white px-6 py-6 bg-[#fa6101]">
                 Start Your Journey
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
@@ -65,8 +62,6 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent"></div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
