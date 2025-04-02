@@ -7,6 +7,8 @@ import EnquiryForm from "@/components/EnquiryForm";
 import ScheduleMeeting from "@/components/ScheduleMeeting";
 import Footer from "@/components/Footer";
 import InstagramFeed from "@/components/InstagramFeed";
+import ComparisonSection from "@/components/ComparisonSection";
+import FounderSection from "@/components/FounderSection";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { CalendarClock, Mail } from "lucide-react";
 
@@ -19,6 +21,8 @@ const Index = () => {
         <HeroSection />
         
         <ServicesSection />
+        
+        <ComparisonSection />
         
         {/* About Section */}
         <section id="about" className="py-20 bg-white">
@@ -56,6 +60,8 @@ const Index = () => {
             </div>
           </div>
         </section>
+        
+        <FounderSection />
         
         <TestimonialsSection />
         
