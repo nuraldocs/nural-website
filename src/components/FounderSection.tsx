@@ -1,5 +1,7 @@
 
 import { Award, Star, GraduationCap } from "lucide-react";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const FounderSection = () => {
   return (
@@ -45,15 +47,18 @@ const FounderSection = () => {
           </div>
           
           <div className="md:col-span-7 order-1 md:order-2">
-            <div className="relative">
-              <div className="aspect-[16/9] rounded-xl overflow-hidden nural-shadow">
-                <img 
-                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" 
-                  alt="Siddarth Gowda, Founder of NURAL" 
-                  className="w-full h-full object-cover"
-                />
+            <div className="relative flex justify-center">
+              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden nural-shadow">
+                <Avatar className="w-full h-full">
+                  <AvatarImage 
+                    src="/lovable-uploads/b6e73895-045c-487d-899f-feac481470a4.png" 
+                    alt="Siddarth Gowda, Founder of NURAL"
+                    className="w-full h-full object-cover" 
+                  />
+                  <AvatarFallback>SG</AvatarFallback>
+                </Avatar>
               </div>
-              <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg nural-shadow max-w-xs">
+              <div className="absolute -bottom-6 right-0 md:right-10 bg-white p-4 rounded-lg nural-shadow max-w-xs">
                 <p className="text-sm text-gray-600">
                   <span className="font-semibold block mb-1">Featured in:</span>
                   Bloomberg, CNBC, Financial Times, Wall Street Journal
