@@ -1,18 +1,11 @@
-
 import { Mail, Phone, MapPin, Twitter, Linkedin, Facebook } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-gray-900 text-white">
-      <div className="container mx-auto py-12 px-4 md:px-6">
+  return <footer className="bg-gray-900 text-white">
+      <div className="container mx-auto py-12 px-4 md:px-6 bg-zinc-50">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center">
-              <img 
-                src="/lovable-uploads/8d69dfe1-1692-404d-a1df-d2c6ad112e56.png" 
-                alt="NURAL Logo" 
-                className="h-10 mr-2"
-              />
+              <img src="/lovable-uploads/8d69dfe1-1692-404d-a1df-d2c6ad112e56.png" alt="NURAL Logo" className="h-10 mr-2" />
             </div>
             <p className="text-gray-400">
               Empowering investors with innovative technology and expert financial strategies.
@@ -74,8 +67,6 @@ const Footer = () => {
           <p>&copy; {new Date().getFullYear()} NURAL Investment & Financial Services. All rights reserved.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
